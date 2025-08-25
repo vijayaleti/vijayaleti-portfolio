@@ -1,0 +1,450 @@
+{
+  "basics": {
+    "name": "Vijay Aleti",
+    "label": "Data Engineer",
+    "image": "/avatar.jpg",
+    "email": "aletivijay59@gmail.com",
+    "phone": "+1 (314) 537-7952",
+    "url": "https://vijayaleti.dev",
+    "summary": "Data Engineer with 3+ years of experience building cloud-native data pipelines, ETL workflows, and analytics platforms across AWS, Azure, and GCP. Skilled in Python, SQL, Spark, Airflow, dbt, Databricks, and Snowflake/BigQuery/Redshift, with expertise in DataOps, IaC (Terraform, Ansible), and containerized deployments (Docker, Kubernetes). Adept at data modeling, warehousing, streaming (Kafka, Kinesis), governance, and compliance (GDPR, SOC2, ISO 27001), while enabling BI and reporting solutions with Power BI, Tableau, and Looker to drive business insights.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "St. Louis",
+      "countryCode": "US",
+      "region": "Missouri"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "vijay-aleti",
+        "url": "https://linkedin.com/in/vijay-aleti"
+      },
+      {
+        "network": "GitHub",
+        "username": "vijayaleti",
+        "url": "https://github.com/vijayaleti"
+      },
+      {
+        "network": "Email",
+        "username": "aletivijay59",
+        "url": "mailto:aletivijay59@gmail.com"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Clairvoyant",
+      "position": "Data Engineer Intern",
+      "url": "https://clairvoyantsoft.com",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "summary": "Designed and deployed serverless data ingestion frameworks, built scalable ETL workflows, and streamlined distributed analytics on AWS cloud platform.",
+      "highlights": [
+        "Designed and deployed a serverless data ingestion framework with API Gateway, Lambda, and DynamoDB, which reduced infrastructure overhead by 25% while keeping API response times consistently under 100ms",
+        "Built scalable ETL workflows in AWS Glue and PySpark to transform and validate 10M+ daily records stored in S3 (Parquet), increasing accuracy of downstream analytics by 40% through automated schema checks",
+        "Streamlined distributed analytics by leveraging Amazon EMR, Redshift Spectrum, and S3, which improved query speed by 35% and enabled near real-time insights for multiple client reporting systems",
+        "Developed monitoring utilities in Python with CloudWatch and SNS, allowing proactive detection of pipeline bottlenecks and cutting mean time to resolve failures by 30%, maintaining 99.9% uptime",
+        "Enhanced cost efficiency of data warehouses by tuning Redshift table structures, compression, and query optimization, lowering compute expenses by 20% while ensuring BI dashboards remained responsive",
+        "Collaborated on a unified data lakehouse model integrating structured and semi-structured sources with S3, Glue Data Catalog, and Redshift, which improved governance compliance and expanded accessibility for analytics teams"
+      ]
+    },
+    {
+      "name": "Accenture",
+      "position": "Data Engineer",
+      "url": "https://accenture.com",
+      "startDate": "2021-06",
+      "endDate": "2023-09",
+      "summary": "Built scalable data pipelines in Azure Data Factory, leveraged Databricks with PySpark, and enhanced analytical performance in Azure Synapse for enterprise clients.",
+      "highlights": [
+        "Built scalable data pipelines in Azure Data Factory (ADF) that automated ingestion from SQL Server, APIs, and blob storage, cutting manual processing time by 40% and ensuring timely client reporting",
+        "Leveraged Databricks with PySpark to design high-performance ETL workflows capable of transforming 20M+ daily records, which improved pipeline efficiency by 30% and accelerated business insights",
+        "Introduced Change Data Capture (CDC) logic within ADF and Delta Lake, shrinking data refresh cycles from 24 hours to less than 2 hours and enabling near real-time visibility for client dashboards",
+        "Enhanced analytical performance in Azure Synapse by optimizing partitioning strategies, materialized views, and indexing, leading to a 35% reduction in query runtimes and lowering compute costs by $50K annually",
+        "Applied governance frameworks through Unity Catalog and Azure Purview, enforcing fine-grained access policies and lineage tracking that strengthened compliance with GDPR and client audit requirements",
+        "Strengthened data quality controls by embedding validation checks into ADF Mapping Dataflows and SQL procedures, decreasing transformation errors by 25% and raising trust in downstream reporting",
+        "Automated deployment pipelines with Azure DevOps and Git, reducing release cycles by 40% while ensuring consistent delivery of data solutions across dev, test, and production environments",
+        "Collaborated with architects and analysts to design a Lakehouse architecture unifying structured (Synapse, SQL) and semi-structured (JSON, Parquet) sources, which expanded self-service analytics access to over 500 business users"
+      ]
+    },
+    {
+      "name": "Sonata Software",
+      "position": "Data Engineer",
+      "url": "https://sonata-software.com",
+      "startDate": "2019-06",
+      "endDate": "2021-05",
+      "summary": "Delivered scalable ETL pipelines using AWS Glue and Lambda, migrated enterprise data to cloud platforms, and enabled business users with Lakehouse architecture.",
+      "highlights": [
+        "Delivered 10+ scalable ETL pipelines using AWS Glue and Lambda, improving ingestion of structured and unstructured datasets and cutting manual processing by nearly 25%",
+        "Replaced static scheduling with event-driven workflows in Step Functions and EventBridge, which shortened end-to-end processing time by 30% and ensured real-time data availability",
+        "Improved cost efficiency by optimizing Databricks clusters with autoscaling and Spark tuning, reducing resource consumption by 20% while keeping heavy streaming jobs stable",
+        "Migrated 5TB+ of enterprise data from Oracle and Teradata into S3 and Redshift with AWS DMS, leading to 40% faster query performance and scalable storage for BI teams",
+        "Boosted real-time decision-making by tuning EMR Spark jobs and runtime parameters, raising streaming pipeline throughput by 25% for time-sensitive business use cases",
+        "Designed standardized Informatica PowerCenter workflows and mappings, which simplified complex ETL jobs and improved cross-team reusability across multiple client domains",
+        "Enhanced reliability of analytics outputs by embedding schema validation and error-handling logic in Glue transformations, cutting data ingestion failures by 20%",
+        "Enabled 200+ business users with a Lakehouse setup on Databricks, Redshift, and S3, giving teams direct access to high-quality data and accelerating dashboard adoption"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Data Engineering Community",
+      "position": "Community Contributor",
+      "url": "https://dataengineering.wiki",
+      "startDate": "2022-01",
+      "endDate": "Present",
+      "summary": "Contributing to open-source data engineering projects and sharing knowledge with the community",
+      "highlights": [
+        "Contributing to Apache Spark and Airflow documentation",
+        "Mentoring junior data engineers through online platforms"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Saint Louis University",
+      "url": "https://slu.edu",
+      "area": "Information Systems",
+      "studyType": "Master of Science",
+      "startDate": "2023-08",
+      "endDate": "2025-05",
+      "score": "3.85",
+      "courses": [
+        "Advanced Database Systems",
+        "Big Data Analytics",
+        "Cloud Computing Architecture",
+        "Data Mining and Machine Learning",
+        "Information Security Management",
+        "Business Intelligence Systems"
+      ]
+    },
+    {
+      "institution": "Jawaharlal Nehru Technological University",
+      "url": "https://jntuh.ac.in",
+      "area": "Mining Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2016-07",
+      "endDate": "2019-05",
+      "score": "3.6",
+      "courses": [
+        "Engineering Mathematics",
+        "Computer Programming",
+        "Database Management Systems",
+        "Statistics and Probability"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Data Pipeline Implementation",
+      "date": "2023-08",
+      "awarder": "Accenture Excellence Awards",
+      "summary": "Recognized for developing innovative ETL workflows that improved client data processing efficiency by 40%"
+    },
+    {
+      "title": "Outstanding Performance Award",
+      "date": "2021-12",
+      "awarder": "Sonata Software",
+      "summary": "Awarded for exceptional contribution to data migration projects and client satisfaction"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Azure Fundamentals (AZ-900)",
+      "date": "2024-03",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/credentials/"
+    },
+    {
+      "name": "Security, Compliance, and Identity Fundamentals (SC-900)",
+      "date": "2024-02",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/credentials/"
+    },
+    {
+      "name": "Vault Associate",
+      "date": "2024-01",
+      "issuer": "HashiCorp",
+      "url": "https://www.hashicorp.com/certification"
+    },
+    {
+      "name": "IBM Data Engineering Professional Certificate",
+      "date": "2023-11",
+      "issuer": "IBM via Coursera",
+      "url": "https://www.coursera.org/professional-certificates/ibm-data-engineer"
+    },
+    {
+      "name": "Data Engineering with Databricks",
+      "date": "2023-09",
+      "issuer": "DataCamp",
+      "url": "https://www.datacamp.com/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Optimizing ETL Performance in Cloud Data Warehouses",
+      "publisher": "Data Engineering Weekly",
+      "releaseDate": "2024-01",
+      "url": "https://dataengweekly.com",
+      "summary": "An analysis of performance optimization techniques for cloud-based ETL workflows"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming & Scripting",
+      "level": "Expert",
+      "keywords": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Pandas",
+        "NumPy",
+        "SQLAlchemy",
+        "Scala",
+        "R",
+        "Bash",
+        "PowerShell",
+        "Go",
+        "YAML",
+        "JSON"
+      ]
+    },
+    {
+      "name": "Data Engineering & ETL",
+      "level": "Expert",
+      "keywords": [
+        "Apache Spark",
+        "Databricks",
+        "Apache Airflow",
+        "dbt",
+        "Apache Kafka",
+        "Apache Flink",
+        "Azure Data Factory",
+        "AWS Glue",
+        "Google Dataflow",
+        "Talend",
+        "Informatica"
+      ]
+    },
+    {
+      "name": "Data Warehousing & Databases",
+      "level": "Advanced",
+      "keywords": [
+        "Snowflake",
+        "Amazon Redshift",
+        "Google BigQuery",
+        "Azure Synapse",
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server",
+        "Oracle",
+        "MongoDB",
+        "Cassandra",
+        "Redis",
+        "DynamoDB"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "level": "Expert",
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Google Cloud Platform",
+        "AWS S3",
+        "AWS Glue",
+        "AWS Redshift",
+        "AWS EMR",
+        "AWS Lambda",
+        "AWS Kinesis",
+        "Azure Data Factory",
+        "Azure Synapse",
+        "Azure Databricks",
+        "GCP BigQuery",
+        "GCP Dataflow"
+      ]
+    },
+    {
+      "name": "DataOps & Infrastructure",
+      "level": "Advanced",
+      "keywords": [
+        "Terraform",
+        "Ansible",
+        "Jenkins",
+        "GitLab CI/CD",
+        "GitHub Actions",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "OpenShift",
+        "ArgoCD"
+      ]
+    },
+    {
+      "name": "Monitoring & Observability",
+      "level": "Intermediate",
+      "keywords": [
+        "Grafana",
+        "Prometheus",
+        "Splunk",
+        "ELK Stack",
+        "Datadog",
+        "New Relic",
+        "AWS CloudWatch",
+        "Azure Monitor"
+      ]
+    },
+    {
+      "name": "Business Intelligence",
+      "level": "Advanced",
+      "keywords": [
+        "Power BI",
+        "Tableau",
+        "Looker",
+        "Amazon QuickSight",
+        "Qlik Sense",
+        "Microsoft Excel",
+        "Power Query",
+        "DAX"
+      ]
+    },
+    {
+      "name": "MLOps & AI",
+      "level": "Intermediate",
+      "keywords": [
+        "MLflow",
+        "Kubeflow",
+        "Vertex AI",
+        "AWS SageMaker",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "Hugging Face",
+        "LangChain",
+        "OpenAI API"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional"
+    },
+    {
+      "language": "Telugu",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": [
+        "Data Engineering",
+        "Cloud Computing",
+        "Machine Learning",
+        "Data Visualization",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "Professional Development",
+      "keywords": [
+        "Technical Writing",
+        "Mentoring",
+        "Community Building",
+        "Conference Speaking"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": "Professional references available upon request"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Physician Burnout Analysis Using ML & Dash",
+      "description": "A comprehensive analytics platform for analyzing physician workload data and predicting burnout patterns using machine learning algorithms and interactive dashboards.",
+      "highlights": [
+        "Built data ingestion and transformation pipelines using Python, Pandas, and SQL to consolidate physician workload data from multiple sources, delivering structured datasets for advanced analysis",
+        "Applied K-Means clustering with Scikit-learn on curated datasets to identify workload intensity groups across specialties, producing actionable insights integrated into BI dashboards",
+        "Deployed the analytics platform as a Plotly Dash application on AWS EC2 with IAM-based access, enabling secure, real-time monitoring of workforce distribution and capacity planning"
+      ],
+      "keywords": [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Plotly Dash",
+        "AWS EC2",
+        "K-Means Clustering",
+        "SQL",
+        "Data Visualization",
+        "Machine Learning"
+      ],
+      "startDate": "2024-03",
+      "endDate": "2024-06",
+      "url": "https://github.com/vijayaleti/physician-burnout-analysis",
+      "roles": ["Data Engineer", "ML Developer"],
+      "entity": "Academic Project",
+      "type": "Data Analytics Platform"
+    },
+    {
+      "name": "Personal Portfolio Using Python & Django",
+      "description": "A scalable Django-based portfolio platform showcasing data engineering projects with cloud-native deployment and comprehensive monitoring solutions.",
+      "highlights": [
+        "Designed a Django-based portfolio platform hosted on AWS EC2 with PostgreSQL and Nginx, presenting end-to-end data engineering and analytics projects in a scalable cloud-native environment",
+        "Automated infrastructure and deployments using Docker containers and GitHub Actions, ensuring consistent builds, faster iterations, and reproducible environments",
+        "Implemented Grafana dashboards, SSL/TLS encryption, and HashiCorp Vault for monitoring, security, and secrets management, achieving full-stack visibility and secure operations"
+      ],
+      "keywords": [
+        "Django",
+        "Python",
+        "AWS EC2",
+        "PostgreSQL",
+        "Docker",
+        "Nginx",
+        "Grafana",
+        "HashiCorp Vault",
+        "GitHub Actions",
+        "SSL/TLS"
+      ],
+      "startDate": "2023-09",
+      "endDate": "2024-01",
+      "url": "https://github.com/vijayaleti/portfolio-django",
+      "roles": ["Full Stack Developer", "DevOps Engineer"],
+      "entity": "Personal Project",
+      "type": "Web Application"
+    },
+    {
+      "name": "Cloud Data Pipeline Automation",
+      "description": "An end-to-end automated data pipeline solution using AWS services for ingesting, processing, and analyzing large-scale datasets with monitoring and alerting capabilities.",
+      "highlights": [
+        "Architected a serverless data pipeline using AWS Lambda, Kinesis, and S3 for real-time data ingestion and processing of 1M+ events per day",
+        "Implemented data quality checks and automated alerting using CloudWatch and SNS, ensuring 99.5% data accuracy and proactive issue resolution",
+        "Developed Infrastructure as Code using Terraform for reproducible deployments across multiple environments, reducing setup time by 70%"
+      ],
+      "keywords": [
+        "AWS Lambda",
+        "Amazon Kinesis",
+        "AWS S3",
+        "Terraform",
+        "CloudWatch",
+        "SNS",
+        "Python",
+        "Real-time Processing",
+        "Infrastructure as Code"
+      ],
+      "startDate": "2024-01",
+      "endDate": "2024-04",
+      "url": "https://github.com/vijayaleti/cloud-data-pipeline",
+      "roles": ["Data Engineer", "Cloud Architect"],
+      "entity": "Professional Project",
+      "type": "Data Pipeline"
+    }
+  ]
+}

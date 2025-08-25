@@ -1,0 +1,78 @@
+{
+  "name": "vijay-aleti-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Data Engineer Portfolio - Vijay Aleti",
+  "author": "Vijay Aleti <aletivijay59@gmail.com>",
+  "keywords": [
+    "portfolio",
+    "data-engineer",
+    "vijay-aleti",
+    "next.js",
+    "typescript",
+    "tailwindcss",
+    "aws",
+    "azure",
+    "data-engineering"
+  ],
+  "homepage": "https://vijayaleti.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vijayaleti/portfolio"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "analyze": "ANALYZE=true npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "next-themes": "^0.2.1",
+    "lucide-react": "^0.316.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.1",
+    "framer-motion": "^11.0.3",
+    "@next/font": "^14.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/forms": "^0.5.7",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "@next/bundle-analyzer": "^14.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
