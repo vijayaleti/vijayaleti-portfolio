@@ -8,3 +8,9 @@ out/
 # Logs
 npm-debug.log*
 yarn-debug.log*
+
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
